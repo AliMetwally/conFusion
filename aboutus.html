@@ -10,6 +10,10 @@
 
     <!--Bootstrap  -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.min.css">
+    <!--Bootstrap Social-->
+    <link rel="stylesheet" href="css\bootstrap-social.css">
     <!--Custome Css  -->
     <link rel="stylesheet" href="css/styles.css">
     <title>Ristorante Con Fusion: About Us</title>
@@ -17,6 +21,39 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-inverse navbar-toggleable-sm fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#Navbar" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav">
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a href="#" class="nav-link"><span class="fa fa-info fa-lg"></span> About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><span class="fa fa-list fa-lg"></span> Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><span class="fa fa-address-card fa-lg"></span> Contact</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /.collpase -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
     <header class="jumbotron">
         <div class="container">
@@ -33,7 +70,11 @@
 
     <div class="container">
         <div class="row">
-            <div class="col">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">About Us</li>
+            </ol>
+            <div class="col-12">
                <h3>About Us</h3>
                <hr>
             </div>
@@ -84,9 +125,9 @@
 		              121, Clear Water Bay Road<br>
 		              Clear Water Bay, Kowloon<br>
 		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+		              <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
+		              <i class="fa fa-fax fa-lg"></i> +852 8765 4321<br>
+		              <i class="fa fa-envelope fa-lg"></i> <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
                 </div>
                 <div class="col-sm align-self-center">
@@ -108,7 +149,9 @@
         </div>
     </footer>
     <!--JavaScripts  -->
-
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

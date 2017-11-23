@@ -1,3 +1,7 @@
+body{
+    padding-top: 50px;
+    z-index: 0;
+}
 .row-header{
     margin: 0px auto;
     padding: 0px;
@@ -29,3 +33,6 @@ address{
     color: #0f0f0f;
 }
 
+.navbar-inverse{
+    background-color: #512DA8;
+}
