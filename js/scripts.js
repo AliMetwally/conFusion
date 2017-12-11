@@ -14,4 +14,26 @@ $(document).ready(function (){
         }
     });
 
+    // Show Login Modal 
+    $('#btnLoginModal').click(function(){
+        $('#loginModal').modal('show');
+    });
+
+    // Hide Login Modal 
+    $('.btnCancelLogin').click(function(){
+        $('#loginModal').modal('hide');
+    });
+
+    // Show Reserve Table Modal
+    $('#btnReserveModal').click(function(){
+        $('#reserveModel').modal('show');
+    });
+
+    // Hide Reserve Table Modal 
+    $('.btnCancelReseve').click(function(){
+        $('#reserveModel').modal('hide');
+    });
+
+
+
 });

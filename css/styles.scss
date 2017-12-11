@@ -70,3 +70,21 @@ body{
     position: absolute;
     bottom: 0px;
 }
+
+// assignment 4 
+.modal-content{
+    color: floralwhite;
+
+    .modal-header{
+        background-color: $background-dark;
+        .close{
+            color: floralwhite;
+        }
+    }
+    .modal-body{
+        background-color: $background-pale; 
+    }
+    .modal-footer{
+        background-color: $background-light;
+    }
+}
